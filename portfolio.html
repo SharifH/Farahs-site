@@ -9,9 +9,9 @@
 		<meta name="description" content="Farah Zoabi PhD" />
 		<meta name="keywords" content="Farah Zoabi PhD" />
 		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="styles//normalize.css" />
-		<link rel="stylesheet" type="text/css" href="styles//demo.css" />
-		<link rel="stylesheet" type="text/css" href="styles//component.css" />
+		<link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="styles/demo.css" />
+		<link rel="stylesheet" type="text/css" href="styles/component.css" />
 		<link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="bower_components/animate.css/animate.min.css" />
 		<link rel="stylesheet" href="bower_components/minicolors/jquery.minicolors.css" />
@@ -22,11 +22,11 @@
 		<link rel="stylesheet" href="styles/style.min.css" />
 		<link rel="stylesheet" href="theme-custom.css" />
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-		<script src="scipts/modernizr.custom.js"></script>
+		<script src="scripts/modernizr.custom.js"></script>
 	</head>
 	<body>
 		<header class="codrops-header">
-		<nav class="navbar navbar-default navbar-fixed-top page-transition colors-e background-solid" role="navigation" id="top-nav">
+		<nav class="portfolio-nav navbar navbar-default navbar-fixed-top page-transition colors-e background-solid" role="navigation" id="top-nav">
 			<div class="container">
 				<div class="navbar-header">
 					<a class="menu-toggle ext-nav-toggle visible-xs-block" data-target=".ext-nav" href="#"><span></span></a>
@@ -218,6 +218,20 @@
 			})();
 			</script>
 			<script src="scripts/script-bundle.js"></script>
+			<script>
+			if (Function('/*@cc_on return document.documentMode===9@*/')())
+			{
+				$('html').addClass('ie9');
+			}
+			if (Function('/*@cc_on return document.documentMode===10@*/')())
+			{
+				$('html').addClass('ie10');
+			}
+			if (!!navigator.userAgent.match(/Trident.*rv\:11\./))
+			{
+				$('html').addClass('ie11');
+			}
+			</script>
 			<script src="scripts/classie.js"></script>
 			<script src="scripts/helper.js"></script>
 			<script src="scripts/grid3d.js"></script>

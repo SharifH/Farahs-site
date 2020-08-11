@@ -3339,8 +3339,14 @@ footer.colors-d a i:hover {
   color: inherit
 }
 
+.portfolio-nav  {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 #top-nav.colors-e .navbar-brand, #top-nav.colors-e .navbar-brand:hover {
-  color: #434343
+  color: #434343;
+  font-size: 40px !important;
 }
 
 #top-nav.colors-e .nav>li ul {
